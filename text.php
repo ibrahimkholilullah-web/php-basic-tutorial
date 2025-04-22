@@ -45,3 +45,14 @@ echo "\n";
 printf("The last name is a %09.2f ", $m)
 
 ?>
+
+<?php 
+
+$fname = "Inrahim Kholilullah";
+$lName = "Tomer name ki vai";
+// return value Php 
+$subject = sprintf ("The Return Value is %s %s", $fName, $lName);
+
+echo $subject;
+
+?>
