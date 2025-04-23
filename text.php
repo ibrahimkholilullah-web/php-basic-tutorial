@@ -56,3 +56,30 @@ $subject = sprintf ("The Return Value is %s %s", $fName, $lName);
 echo $subject;
 
 ?>
+
+
+<?php
+$year = 2027;
+
+if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
+    echo "This is a leap year.";
+} else {
+    echo "This is not a leap year.";
+}
+?>
+
+<?php
+$year = 2004;
+if($year % 4 == 0 && $year % 100 == 0 && $year % 400 == 0){
+    echo "The is a leap Year.";
+}else {
+    echo ("The Not leap year.");
+}
+echo "\n"
+?>
+<?php 
+// ternary operator
+$numberOneTheHere = 2021;
+$resultOfTheNumber = $numberOneTheHere % 2 == 0 ? "Ibrahim" : "kholil";
+echo $resultOfTheNumber;
+?>
